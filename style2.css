@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New";
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #d2dae2;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.container {
+	background: rgb(27, 27, 27);
+}
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card {
+	background: white;
+	width: 220px;
+	margin: 10px;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.card-image {
+    background: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;  
+    border-radius: 15px 15px 0 0;
+}
+.car-1 {
+    background-image: url(1.1.jpg);
+}
+.car-2 {
+    background-image: url(2.2.jpg);
+}
+.car-3 {
+    background-image: url(3.3.jpg);
+}
+.car-4 {
+    background-image: url(4.4.jpg);
+}
+.car-5 {
+    background-image: url(5.5.jpg);
+}
+.car-6 {
+    background-image: url(6.6.jpg);
+}
+.car-7 {
+    background-image: url(7.7.jpg);
+}
+.car-8 {
+    background-image: url(8.8.jpg);
+}
+.car-9 {
+    background-image: url(9.9.jpg);
+}
+.car-10 {
+    background-image: url(10.10.jpg);
+}
+.car-11 {
+    background-image: url(11.11.jpg);
+}
+.car-12 {
+    background-image: url(12.12.jpg);
+}
+.car-13 {
+    background-image: url(13.13.jpg);
+}
+.car-14 {
+    background-image: url(14.14.jpg);
+}
+.car-15 {
+    background-image: url(15.15.jpg);
+}
+.car-16 {
+    background-image: url(16.16.jpg);
+}
+.car-17 {
+    background-image: url(17.17.jpg);
+}
+.car-18 {
+    background-image: url(18.18.jpg);
+}
+.car-19 {
+    background-image: url(19.19.jpg);
+}
+.car-20 {
+    background-image: url(20.20.jpg);
+}
+.car-21 {
+    background-image: url(21.21.jpg);
+}
+.car-22 {
+    background-image: url(22.22.jpg);
+}
+.car-23 {
+    background-image: url(23.23.jpg);
+}
+.car-24 {
+    background-image: url(24.24.jpg);
+}
+.car-25 {
+    background-image: url(25.25.jpg);
+}
+.car-26 {
+    background-image: url(26.26.jpg);
+}
+.car-27 {
+    background-image: url(27.27.jpg);
+}
+.car-28 {
+    background-image: url(28.28.jpg);
+}
+.car-29 {
+    background-image: url(29.29.jpg);
+}
+.car-30 {
+    background-image: url(30.30.jpg);
+}
+.car-31 {
+    background-image: url(31.31.jpg);
+}
+.car-32 {
+    background-image: url(32.32.jpg);
+}
+.car-33 {
+    background-image: url(33.33.jpg);
+}
+.car-34 {
+    background-image: url(34.34.jpg);
+}
+.car-35 {
+    background-image: url(35.35.jpg);
+}
+.car-36 {
+    background-image: url(36.36.jpg);
+}
+.car-37 {
+    background-image: url(37.37.jpg);
+}
+.car-38 {
+    background-image: url(38.38.jpg);
+}
+.car-39 {
+    background-image: url(39.39.jpg);
+}
+.car-40 {
+    background-image: url(40.40.jpg);
+}
+.car-41 {
+    background-image: url(41.41.jpg);
+}
+.car-42 {
+    background-image: url(42.42.jpg);
+}
+.car-43 {
+    background-image: url(43.43.jpg);
+}
+.car-44 {
+    background-image: url(44.44.jpg);
+}
+.car-45 {
+    background-image: url(45.45.jpg);
+}
+.car-46 {
+    background-image: url(46.46.jpg);
+}
+.car-47 {
+    background-image: url(47.47.jpg);
+}
+.car-48 {
+    background-image: url(48.48.jpg);
+}
+.car-49 {
+    background-image: url(49.49.jpg);
+}
+.car-50 {
+    background-image: url(50.50.jpg);
+}
+.car-51 {
+    background-image: url(51.51.jpg);
+}
+.car-52 {
+    background-image: url(52.52.jpg);
+}
+.car-53 {
+    background-image: url(53.53.jpg);
+}
+.car-54 {
+    background-image: url(54.54.jpg);
+}
+.car-55 {
+    background-image: url(55.55.jpg);
+}
+.car-56 {
+    background-image: url(56.56.jpg);
+}
+.car-57 {
+    background-image: url(57.57.jpg);
+}
+.car-58 {
+    background-image: url(58.58.jpg);
+}
+.car-59 {
+    background-image: url(59.59.jpg);
+}
+.car-60 {
+    background-image: url(60.60.jpg);
+}
+.car-61 {
+    background-image: url(61.61.jpg);
+}
+.car-62 {
+    background-image: url(62.62.jpg);
+}
+.car-63 {
+    background-image: url(63.63.jpg);
+}
+.car-64 {
+    background-image: url(64.64.jpg);
+}
+.car-65 {
+    background-image: url(65.65.jpg);
+}
+.car-66 {
+    background-image: url(66.66.jpg);
+}
+.car-67 {
+    background-image: url(67.67.jpg);
+}
+.car-68 {
+    background-image: url(68.68.jpg);
+}
+.car-69 {
+    background-image: url(69.69.jpg);
+}
+.car-70 {
+    background-image: url(70.70.jpg);
+}
+.car-71 {
+    background-image: url(71.71.jpg);
+}
+.car-72 {
+    background-image: url(72.72.jpg);
+}
+.car-73 {
+    background-image: url(73.73.jpg);
+}
+.car-74 {
+    background-image: url(74.74.jpg);
+}
+.car-75 {
+    background-image: url(75.75.jpg);
+}
+.car-76 {
+    background-image: url(76.76.jpg);
+}
+.car-77 {
+    background-image: url(77.77.jpg);
+}
+.car-78 {
+    background-image: url(78.78.jpg);
+}
+.car-79 {
+    background-image: url(79.79.jpg);
+}
+.car-80 {
+    background-image: url(80.80.jpg);
+}
+.car-81 {
+    background-image: url(81.81.jpg);
+}
+.car-82 {
+    background-image: url(82.82.jpg);
+}
+.car-83 {
+    background-image: url(83.83.jpg);
+}
+.car-84 {
+    background-image: url(84.84.jpg);
+}
+.car-85 {
+    background-image: url(85.85.jpg);
+}
+.car-86 {
+    background-image: url(86.86.jpg);
+}
+.car-87 {
+    background-image: url(87.87.jpg);
+}
+.car-88 {
+    background-image: url(88.88.jpg);
+}
+.car-89 {
+    background-image: url(89.89.jpg);
+}
+.car-90 {
+    background-image: url(90.90.jpg);
+}
+.car-91 {
+    background-image: url(91.91.jpg);
+}
+.car-92 {
+    background-image: url(92.92.jpg);
+}
+.car-93 {
+    background-image: url(93.93.jpg);
+}
+.car-94 {
+    background-image: url(94.94.jpg);
+}
+.car-95 {
+    background-image: url(95.95.jpg);
+}
+.car-96 {
+    background-image: url(96.96.jpg);
+}
+.car-97 {
+    background-image: url(97.97.jpg);
+}
+.car-98 {
+    background-image: url(98.98.jpg);
+}
+.car-98 {
+    background-image: url(98.98.jpg);
+}
+.car-99 {
+    background-image: url(99.99.jpg);
+}
+.car-100 {
+    background-image: url(100.100.jpg);
+}
+.card h2 {
+	padding: 10px;
+}
+.card p {
+	padding: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+    height: 50px;
+    margin: 25px;
+}
+.card:hover {
+	background-color: rgb(62,62,62);
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
