@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toyota RAV4</title>
+	<style>
+			* {
+				font-family: "Courier New"
+			}
+			.header {
+    			position: fixed;
+    			top: 0px;
+    			left: 0px;
+    			width: 90%; 
+    			padding: 20px 100px;
+    			background: transparent;
+    			display: flex;
+    			justify-content: space-between;
+    			align-items: center;
+    			z-index: 100;
+			}
+			.logo {
+    			font-size: 32px;
+    			color: #fff;
+    			text-decoration: none;
+    			font-weight: 700;
+			}
+						.navbar a {
+    			position: relative;
+    			font-size: 18px;
+    			color: #fff;
+    			font-weight: 500;
+    			text-decoration: none;
+    			margin-left: 40px;
+			}
+			.navbar a::before {
+    			content: '';
+    			position: absolute;
+    			top: 100%;
+    			left: 0;
+
+    			width: 0%;
+    			height: 2px;
+    			background: #fff;
+    			transition: .3s;
+			}
+			.navbar a:hover:before {
+    			width: 100%;
+				}
+		
+
+
+		body {
+            min-height: 100vh;
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+        h1 {
+            font-family: Snell Roundhand, cursive;
+            font-size: 50px;
+            color: white;
+            margin-top: 80px;
+            text-align: left;
+            margin-left: 50px;
+        }
+        .main {
+        	display: flex;
+            justify-content: center;  
+            margin-top: 20px; 
+            flex-wrap: wrap;
+        }
+        img {
+    		 
+    		height: 500px;
+    		width: 750px;
+    		border-radius: 50px;
+    		margin-top: 30px; 
+    		margin: 70px; 
+		}
+        h3 {
+            font-family: Courier New;
+            font-size: 30px;
+            text-align: center;
+            background-color: #222f3e;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 75px 350px 0;  
+            color: white;
+        }
+	</style>
+</head>
+<body>
+
+	<header class="header">
+		<a href="homepage.html" class="logo">TOP 100 Best JDM Rides</a>
+
+		<nav class="navbar">
+			<a href="homepage.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<h1>Toyota RAV4</h1>
+
+	<div class="main">
+	 <img class="main" src="91.jpg">
+	</div>
+
+		<h3><hr>The Toyota RAV4 is a compact crossover SUV known for kickstarting the trend of smaller SUVs. It debuted in Japan and Europe in 1994 and arrived in North America in 1995. The RAV4 combines SUV benefits like increased cargo space and visibility with the maneuverability and fuel efficiency of a compact car. Its name stands for "Recreational Active Vehicle with 4-wheel drive" or "Robust Accurate Vehicle with 4-wheel drive," though not all models have 4WD. It's been a hit globally, with over 10 million units sold by February 2020.<hr></h3>
+
+		<img class="specs" src="rav4specs.jpg">
+ </body>
+</html>
